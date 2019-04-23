@@ -1,12 +1,14 @@
 package com.example.shellweather.db;
 
+import org.litepal.crud.DataSupport;
+
 import static android.R.attr.id;
 
 /**
  * Created by DELL on 2019/4/16.
  */
 
-public class Province {
+public class Province extends DataSupport{
     private int id;
     private String provinceName;
     private int provinceCode;

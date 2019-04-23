@@ -6,6 +6,5 @@
         <mapping class = "com.shellweather.android.db.Province"/>
         <mapping class = "com.shellweather.android.db.City"/>
         <mapping class = "com.shellweather.android.db.County"/>
-
     </list>>
 </litepal>

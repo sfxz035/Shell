@@ -1,10 +1,12 @@
 package com.example.shellweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by DELL on 2019/4/16.
  */
 
-public class County {
+public class County extends DataSupport {
     private int id;
     private String countyName;
     private String weatherId;

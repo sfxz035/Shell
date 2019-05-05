@@ -3,8 +3,8 @@
     <dbname value="shell_weather"/>
     <version value="1"/>
     <list>
-        <mapping class = "com.shellweather.android.db.Province"/>
-        <mapping class = "com.shellweather.android.db.City"/>
-        <mapping class = "com.shellweather.android.db.County"/>
+        <mapping class = "com.example.shellweather.db.Province"/>
+        <mapping class = "com.example.shellweather.db.City"/>
+        <mapping class = "com.example.shellweather.db.County"/>
     </list>>
 </litepal>

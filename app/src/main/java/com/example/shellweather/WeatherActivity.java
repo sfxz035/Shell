@@ -38,7 +38,7 @@ public class WeatherActivity extends AppCompatActivity {
     public SwipeRefreshLayout swipeRefresh;
     public DrawerLayout drawerLayout;
     private Button navButton;
-
+    private Button setButton;
     private TextView titleCity;
 
     private TextView titleUpdateTime;

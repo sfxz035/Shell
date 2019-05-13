@@ -2,7 +2,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <SwitchPreference
-        android:defaultValue="false"
-        android:key="switch_preference_1"
-        android:title="Switch preference"/>
+        android:key="parent_switch"
+        android:title="自动更新" />
+    <ListPreference
+        android:dependency="parent_switch"
+        android:title="更新间隔"
+        android:entries="@array/cates"
+        android:entryValues="@array/cates_value"/>
+
+    <Preference
+        android:key="version"
+        android:layout="@layout/guanyu"/>
+
 </PreferenceScreen>
